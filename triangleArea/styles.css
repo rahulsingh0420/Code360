@@ -1,0 +1,44 @@
+body {
+    background-color: pink;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+form#triangleForm {
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid red;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+button {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: blue;
+}
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: yellow;
+    font-size: 18px;
+    border-radius: 4px;
+    color: black;
+    display: none;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Image Album</h1>
+    <div class="container">
+        <figure class="imageCard">
+            <img alt="photo" id="img" src="" loading="lazy" /> 
+            <figcaption class="description" id="description"></figcaption>
+            <div class="loader" id="loader">
+                Loading...
+            </div>
+        </figure>
+    </div>
+
+    <div class="controls">
+        <button class="prev" onclick="previousImageCard()">prev</button>
+        <button class="next" onclick="nextImageCard()">next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

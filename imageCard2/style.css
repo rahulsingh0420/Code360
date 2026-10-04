@@ -1,0 +1,74 @@
+:root{
+    --radius : 15px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.imageCard{
+    display: flex;
+    justify-content: center;
+    border-radius: var(--radius);
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.description{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 1.3rem;
+}
+
+img{
+    border-radius: var(--radius) var(--radius) 0 0;
+
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button{
+    padding: .5rem 2rem .5rem 2rem;
+    font-size: 1rem;
+    background-color: rgb(118, 239, 118);
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    &:hover{
+        background-color: transparent;
+        border: 1px solid lightgreen;
+        cursor: pointer;
+    }
+}
+
+.next{
+    margin-left: 10px;
+    &:hover{
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+}
+
+.prev:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.loader{
+    text-align: center;
+    display: none;
+}
